@@ -10,7 +10,7 @@
 \usepackage[bookmarks=true,colorlinks=true,linkcolor=blue,pdfusetitle]{hyperref}
 \usepackage{tikz}
 
-\setmainfont{Linux Biolinum}
+\setmainfont{Linux Biolinum O}
 \newfontlanguage{Japanese}{JPN}
 \setCJKmainfont{IPAGothic}
 
@@ -55,9 +55,7 @@
 {\begin{tikzpicture}}%
 {\end{tikzpicture}\\}
 \newenvironment{tkinsidebox}%
-{\begin{minipage}{\textwidth-21pt}}%
+{\begin{minipage}{0.95\textwidth}}%
 {\end{minipage}}
 \newcommand{\tkboxheader}[1]{\node[fancytitle] at (box.north west) {#1};}
 \newcommand{\jpb}{\hskip 0sp plus 2pt minus 2sp}
-
-
